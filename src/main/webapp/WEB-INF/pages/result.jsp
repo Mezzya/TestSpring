@@ -5,7 +5,7 @@
         <title>Prog.kiev.ua</title>
     </head>
     <body>
-        <table>
+        <table border="1">
             <tr>
                 <td>id</td>
                 <td>name</td>
@@ -20,5 +20,6 @@
 
         </c:forEach>
         </table>
+    <a href="/">To Start page</a>
     </body>
 </html>

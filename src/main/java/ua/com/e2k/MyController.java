@@ -25,7 +25,7 @@ public class MyController {
         return "index";
     }
 
-    @RequestMapping(value = "/add", method = RequestMethod.GET)
+    @RequestMapping(value = "/add", method = RequestMethod.POST)
     public String onLogin(Model model, @RequestParam String name, @RequestParam String age) {
 //        Добавление в базу
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("JPAMenu");
